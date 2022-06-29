@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: #242424;
+}
+
+.fundo {
+    padding-top: 100px;
+    padding-bottom: 170px;
+    background-image: url(../img/Coca\ cola.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.fundo h1 {
+
+    font-weight: 400px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.inicio_2020 {
+    padding-top: 100px;
+    padding-bottom: 170px;
+    background-image: url(../img/coca-cola-tabela.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inicio_2020 h1 {
+
+    font-weight: 400px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  a {
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 2px;
+      margin-top: 3px;
+      color: rgb(3, 3, 3);
+      text-decoration: none;
+      display: block;
+  }
+
+  a:hover {
+      color: rgb(255, 0, 0);
+      text-decoration: underline;
+      text-transform: uppercase;
+  }
+
+  .titulo h2 {
+      font-size: 30px;
+      font-weight: 400;
+      font-style: italic;
+      text-decoration: underline;
+      color: black;
+  }
+
+  h2:hover {
+      color: red;
+  }
+
+  /* .inicio {
+      float: right;
+      background-color: aqua;
+      width: 100%;
+  }
+
+  .inicio h2 {
+      font-size: 15px;
+      text-align: center;
+  }*/
+
+  .produtos {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 10px;
+      text-align: center;
+  }
+
+  .coca {
+      float: left;
+      width: 50%;
+      color: white;
+  }
+
+  .coca-cola {
+      width: 180px;
+  }
+
+  h3 {
+      font-size: 20px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+  }
+
+  .coca:hover {
+      color: red;
+  }
+
+  .sprite {
+      float: left;
+      width: 50%;
+      color: white;
+  }
+
+  .sprite_i {
+      width: 117px;
+  }
+
+  h3 {
+      font-size: 20px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+      
+  }
+
+  .sprite:hover {
+      color: #79BD6F;
+  }
+
+  .fanta {
+      float: left;
+      width: 50%;
+      color: white;
+      
+  }
+
+  .fanta_i {
+      width: 180px;
+  }
+  
+  h3 {
+      font-size: 20px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+  }
+
+  .fanta:hover {
+      color: #ff660d;
+  }
+
+  .schweppers {
+      float: left;
+      width: 50%;
+      color: white;
+  }
+
+  .schweppers_i {
+      width: 98px;
+  }
+
+  h3 {
+      font-size: 20px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+  }
+
+  .schweppers:hover {
+      color: #94e487;
+  }
+
+  .crystal {
+      float: left;
+      width: 50%;
+      color: white;
+  }
+
+  .crystal_i {
+      width: 190px;
+  }
+
+  .crystal:hover {
+      color: #C1E8E4;
+  }
+
+  h3 {
+      font-size: 20px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+  }
+
+  .topo-chico {
+    float: right;
+    width: 50%;
+    color: white;
+}
+
+.topo-chico_i {
+    width: 119px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.topo-chico:hover {
+    color: #EDC844;
+}
+
+.kuat {
+    float: left;
+    width: 100%;
+    color: white;
+}
+
+.kuat_i {
+    width: 70px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.kuat:hover {
+    color: #00582b;
+}
+
+  .tabela {
+      width: 100%;
+  }
+
+  h2 {
+      font-size: 19px;
+      text-align: center;
+      padding-bottom: 20px;
+  }
+
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin: 5px;
+      padding: 9px;
+  }
+
+  th {
+      background-color: aquamarine;
+      text-align: center;
+  }
+
+  th:hover {
+      color: white;
+  }
+
+  td {
+      text-align: left;
+  }
+
+  tr {
+      background-color: #eee;
+  }
+
+  tr:hover {
+      background-color: #C1E8E4;
+      color: red;
+  }
+
+  tr:nth-child(even) {
+      background-color: rgb(69, 149, 253);
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  article {
+    float: left;
+    padding: 20px;
+    width: 100%;
+  }
+
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
+  
+  @media (max-width: 600px) {
+    nav, article, .coca, .sprite, .fanta {
+      width: 100%;
+      height: auto;
+    }
+  }
